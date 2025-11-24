@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.Encabezado {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 130px;
+  background-color: black;
+  padding: 0 20px;
+  flex-wrap: nowrap;
+}
+.Encabezado .LogoInst {
+  max-height: 130px;
+  display: block;
+  padding: 10px;
+}
+.Encabezado .PagesList {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  width: auto;
+  text-decoration: none;
+}
+.Encabezado .PagesList .topnav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+}
+.Encabezado .PagesList .topnav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.Encabezado .PagesList .topnav a {
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+  display: block;
+  text-align: center;
+}
+.Encabezado .PagesList .topnav a:hover {
+  background-color: rgb(225, 202, 58);
+  color: black;
+}
+
+/*# sourceMappingURL=estilo.css.map */
