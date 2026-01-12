@@ -1,98 +1,71 @@
 const products = [
-  // WHEY PROTEIN SABORES
+  // REMERAS MG
   {
     id: 1,
-    title: "Whey Protein Star Nutrition 1 kg – Vainilla Crema",
-    price: 32000,
-    category: "proteinas",
-    stock: 20,
-    img: "/img/whey-vainilla-crema.jpg",
-    description: "Proteína de suero con sabor vainilla crema. Ideal para recuperación muscular y aumento de masa magra."
+    title: "Remera MG Blanca",
+    price: 18000,
+    category: "indumentaria",
+    stock: 30,
+    img: "/img/remera-mg-blanca.jpg",
+    description: "Remera MG color blanco, algodón de alta calidad, cómoda para uso deportivo y urbano."
   },
   {
     id: 2,
-    title: "Whey Protein Star Nutrition 1 kg – Chocolate Suizo",
-    price: 32000,
-    category: "proteinas",
+    title: "Remera MG Negra",
+    price: 18000,
+    category: "indumentaria",
     stock: 25,
-    img: "/img/whey-chocolate-suizo.jpg",
-    description: "Proteína de suero sabor chocolate suizo, de excelente solubilidad y perfil aminoacídico."
+    img: "/img/remera-mg-negra.jpg",
+    description: "Remera MG color negro, diseño minimalista, ideal para entrenar o uso diario."
   },
+
+  // SUPLEMENTOS
   {
     id: 3,
-    title: "Whey Protein Star Nutrition 1 kg – Cream & Cookies",
-    price: 33000,
-    category: "proteinas",
-    stock: 15,
-    img: "/img/whey-cream-cookies.jpg",
-    description: "Proteína de suero sabor cream & cookies, ideal para quienes buscan sabor intenso sin descuidar calidad nutricional."
+    title: "Proteína Whey",
+    price: 32000,
+    category: "suplementos",
+    stock: 20,
+    img: "/img/proteina-whey.jpg",
+    description: "Suplemento de proteína de suero para favorecer la recuperación muscular y el desarrollo de masa magra."
   },
   {
     id: 4,
-    title: "Whey Protein Star Nutrition 1 kg – Frutilla",
-    price: 32000,
-    category: "proteinas",
-    stock: 18,
-    img: "/img/whey-frutilla.jpg",
-    description: "Proteína de suero sabor frutilla, pensada para consumo diario post entrenamiento."
+    title: "MTOR Activator",
+    price: 29000,
+    category: "suplementos",
+    stock: 15,
+    img: "/img/mtor.jpg",
+    description: "Suplemento formulado para estimular la vía mTOR y optimizar la síntesis proteica muscular."
   },
   {
     id: 5,
-    title: "Whey Protein Star Nutrition 1 kg – Banana",
-    price: 32000,
-    category: "proteinas",
-    stock: 22,
-    img: "/img/whey-banana.jpg",
-    description: "Proteína de suero sabor banana, ideal para batidos y preparaciones dulces."
+    title: "Creatina Monohidratada",
+    price: 18500,
+    category: "suplementos",
+    stock: 35,
+    img: "/img/creatina.jpg",
+    description: "Creatina monohidratada micronizada que mejora la fuerza, potencia y rendimiento físico."
   },
 
-  // BCAA SABORES
+  // CARRERA / EVENTO
   {
     id: 6,
-    title: "BCAA 2:1:1 Star Nutrition – Grape Attack",
-    price: 21000,
-    category: "aminoacidos",
-    stock: 30,
-    img: "/img/bcaa-grape-attack.jpg",
-    description: "Aminoácidos ramificados sabor uva. Ayudan a reducir el catabolismo y mejorar la recuperación muscular."
+    title: "Inscripción Carrera MG",
+    price: 25000,
+    category: "carrera",
+    stock: 100,
+    img: "/img/inscripcion-carrera.jpg",
+    description: "Inscripción oficial a la carrera MG. Incluye dorsal, seguro y kit del corredor."
   },
   {
     id: 7,
-    title: "BCAA 2:1:1 Star Nutrition – Watermelon",
-    price: 21000,
-    category: "aminoacidos",
-    stock: 28,
-    img: "/img/bcaa-watermelon.jpg",
-    description: "BCAA sabor sandía, ideal para consumir durante o después del entrenamiento."
-  },
-  {
-    id: 8,
-    title: "BCAA 2:1:1 Star Nutrition – Fruit Punch",
-    price: 21000,
-    category: "aminoacidos",
-    stock: 26,
-    img: "/img/bcaa-fruit-punch.jpg",
-    description: "BCAA sabor fruit punch, formulados para favorecer la recuperación y preservar masa muscular."
-  },
-
-  // OTROS PRODUCTOS
-  {
-    id: 9,
-    title: "Creatina Monohidratada Star Nutrition 300 g",
-    price: 18500,
-    category: "creatina",
-    stock: 40,
-    img: "/img/creatina-300g.jpg",
-    description: "Creatina monohidratada micronizada para mejorar fuerza, potencia y rendimiento."
-  },
-  {
-    id: 10,
-    title: "Pre Workout Explosion Star Nutrition",
-    price: 23000,
-    category: "preentreno",
-    stock: 20,
-    img: "/img/pre-workout-explosion.jpg",
-    description: "Pre entreno con cafeína y aminoácidos para maximizar energía y enfoque."
+    title: "Sponsorización Carrera MG",
+    price: 120000,
+    category: "carrera",
+    stock: 5,
+    img: "/img/sponsor-carrera.jpg",
+    description: "Paquete de sponsorización oficial de la carrera MG con visibilidad de marca y beneficios promocionales."
   }
 ];
 
