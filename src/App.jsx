@@ -12,7 +12,7 @@ function App() {
     <>
       <NavBar/>
       <ItemListContainer
-        items= "Proximamente tienda del Gimnasio Megagym"
+        
       
       />
       
