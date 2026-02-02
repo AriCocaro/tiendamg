@@ -13,9 +13,9 @@ export default function NavBar(){
             <div className="PagesList">
                 <div className="topnav">
                     <ul>
-                        <li><a href="#">Indumentaria</a></li>
+                        <li><a href="#">Merch</a></li>
                         <li><a href="#">Suplementos</a></li>
-                        <li><a href="#">Inscripción Carrera</a></li>
+                        <li><a href="#">Megarun</a></li>
                     </ul>
                 </div>
             </div>
